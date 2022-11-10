@@ -1,0 +1,23 @@
+.cakeContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:50%;
+}
+
+.cakeButton{
+    margin:10px;
+    color: black;
+    border-radius: 5px;
+    align-self: center;
+    width: 40%;
+}
+
+.buyCake{
+    background-color: green;
+}
+
+.returnCake{
+    background-color: red;
+}
+

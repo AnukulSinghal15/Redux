@@ -8,9 +8,10 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <BakeryShop />
+        <BakeryShop username=" Anukul"/>
       </div>
     </Provider>
+
   );
 }
 

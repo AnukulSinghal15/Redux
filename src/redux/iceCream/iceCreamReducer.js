@@ -1,16 +1,14 @@
-const initialState={
-    numIceCream: 15
-}
+import {iceCreams} from "../bakeryState"
 
-const iceCreamReducer= (state=initialState, action) =>{
+const iceCreamReducer= (state=iceCreams, action) =>{
     switch(action.type){
         case 'BUY_ICECREAM': return {
             ...state,
-            numIceCream: state.numIceCream-action.payload
+            count: state.count-action.payload
         }
         case 'RETURN_ICECREAM': return {
             ...state,
-            numIceCream: state.numIceCream+action.payload
+            count: state.count+action.payload
         }
         default: return state
     }

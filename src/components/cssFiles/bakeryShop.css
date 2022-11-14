@@ -1,6 +1,21 @@
-.cakeContainer{
+.bakeryShopContainer{
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    width:100%;
+    margin-top: 50px;
+}
+
+.cakeContainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width:50%;
+}
+
+.iceCreamContainer{
+    display: flex;
+    justify-content: flex-end;
     flex-direction: column;
     width:50%;
 }
